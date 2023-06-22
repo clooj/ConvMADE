@@ -1,12 +1,12 @@
 # ConvMADE
-卷积让基数估计更强
-主要是1、利用了RepVGG思想，利用1*1卷积辅助全连接结构（RepConv结构）
-      2、利用了分治思想，将全连接结构分成几个小的全连接结构（DWMP结构），减少参数数量。
-      3、利用RepConv结构促进DWMP结构的几个小全连接结构进行特征融合，并获取全局视野。（全连接结构很容易获得全局视野，但是小全连接陷入了局部最优解）
+卷积让基数估计更强  
+主要是1、利用了RepVGG思想，利用1*1卷积辅助全连接结构（RepConv结构）  
+      2、利用了分治思想，将全连接结构分成几个小的全连接结构（DWMP结构），减少参数数量。   
+      3、利用RepConv结构促进DWMP结构的几个小全连接结构进行特征融合，并获取全局视野。（全连接结构很容易获得全局视野，但是小全连接陷入了局部最优解）  
 
-环境：
-  win10 + python3.8 + pytorch-1.10.1-py3.8_cuda11.3_cudnn8_0
-我的conda -list，不排除有部分我直接改了代码，不兼容问题多搜搜吧，不过应该碰不到。neurocard的代码需要装cargo还是啥来着，比较烦，慢慢装。
+环境：  
+  win10 + python3.8 + pytorch-1.10.1-py3.8_cuda11.3_cudnn8_0  
+我的conda -list，不排除有部分我直接改了代码，不兼容问题多搜搜吧，不过应该碰不到。neurocard的代码需要装cargo还是啥来着，比较烦，慢慢装。  
 
   ```
   _py-xgboost-mutex         2.0                       cpu_0    https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
