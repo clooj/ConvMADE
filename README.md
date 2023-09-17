@@ -1,4 +1,5 @@
 # ConvMADE
+水文名字:ConvMADE:Convolution Makes Cardinality Estimation Stronger
 卷积让基数估计更强  
 主要是1、利用了RepVGG思想，利用1*1卷积辅助全连接结构（RepConv结构）  
       2、利用了分治思想，将全连接结构分成几个小的全连接结构（DWMP结构），减少参数数量。   
